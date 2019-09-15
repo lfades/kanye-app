@@ -1,0 +1,27 @@
+{
+  "name": "kanye-app",
+  "version": "1.0.0",
+  "description": "Application using kanye.rest and Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfades/kanye-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfades/kanye-app/issues"
+  },
+  "homepage": "https://github.com/lfades/kanye-app#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
