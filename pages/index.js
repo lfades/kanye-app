@@ -6,13 +6,13 @@ import Quote from '../components/Quote';
 import { getQuote } from '../lib/quotes-api';
 
 const HELP_TEXT = {
-  fetch: 'With an external fetch'
+  fetch: 'With an external fetch v2'
 };
 
 const Index = ({ quotes }) => (
   <Layout>
     <Content>
-      <Header>Kanye Quotes</Header>
+      <Header>Kanye Quotes v2</Header>
       {quotes.map(({ id, quote }) => (
         <Card key={id}>
           <Quote text={quote} helpText={HELP_TEXT[id]}></Quote>
