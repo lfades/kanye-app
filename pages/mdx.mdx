@@ -1,0 +1,21 @@
+import { MDXProvider } from '@mdx-js/react';
+import Layout from '../components/Layout';
+import Content from '../components/Content';
+import Header from '../components/Header';
+import Card from '../components/Card';
+import components from '../components/mdx-components';
+
+# Hello From MDX
+
+This page is build with [MDX](https://mdxjs.com/).
+
+export default ({ children }) => (
+  <MDXProvider components={components}>
+    <Layout>
+      <Content>
+        <Header>MDX Page</Header>
+        <Card>{children}</Card>
+      </Content>
+    </Layout>
+  </MDXProvider>
+);
