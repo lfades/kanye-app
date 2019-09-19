@@ -34,6 +34,12 @@ const Header = ({ children }) => {
         <li>
           <A href="/">Home</A>
         </li>
+        <li>
+          <A href="/mdx">MDX</A>
+        </li>
+        <li>
+          <A href="/about">About</A>
+        </li>
       </ul>
       <style jsx>{`
         header {
